@@ -8,7 +8,7 @@ SERVER = 'imap.gmai.com'
 mail = imaplib.IMAP_SSL(SERVER)
 mail.login(EMAIL, PASSWORD)
 mail.select('inbox')
-status, data = mail.seach(None, 'ALL') mail_ids []
+status, data = mail.search(None, 'ALL') mail_ids []
 
 for block in data:
   mail_ids += block.splint()
