@@ -1,4 +1,4 @@
-import email
+import mail
 import imaplib
 
 EMAIL = '** Seu email **'
