@@ -9,6 +9,6 @@ apt install python2 -y
 apt install python3 -y
 
 # Instalar pacotes necessário
-pip install email
+pip install mail
 pip install imaplib
 
